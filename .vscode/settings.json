@@ -1,0 +1,11 @@
+{
+    "workbench.externalBrowser": "firefox",
+    "remote.portsAttributes": {
+        "8000": {
+            "onAutoForward": "openBrowserExternal"
+        },
+        "8501": {
+            "onAutoForward": "openBrowserExternal"
+        }
+    }
+}
