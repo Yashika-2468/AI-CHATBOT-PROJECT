@@ -252,34 +252,9 @@ def create_docx():
     r_men = decl_p.add_run("College Mentor: Dr. Anamika Goel                       College: ABES Engineering College")
     r_men.font.bold = True
 
-    # Appendix: Viva & Presentation Guide
-    add_section_header("Appendix: Learner Oral Viva & Presentation Guide")
-    add_body_p(
-        "\"Good morning respected evaluators. My name is Yashika Gupta (Roll No. 2300320150073) from ABES Engineering College, "
-        "mentored by Dr. Anamika Goel. For my HCLTech Career Shaper capstone project, I developed an AI-Powered Chatbot for "
-        "University Student Support.\n\n"
-        "During admissions and exams, college helpdesks receive hundreds of repetitive queries regarding fees, hostel allotments, "
-        "and syllabus. Manual responses take 24 to 48 hours. I built this AI system to automate these queries 24/7 with instant responses.\n\n"
-        "The system is built in Python. When a student enters a query, it is preprocessed using TF-IDF Vectorization with word and "
-        "character n-grams to handle typos. A 2-layer Multi-Layer Perceptron (MLP) Neural Network predicts the user's intent with "
-        "99.51% accuracy in less than 15 milliseconds. If an unknown question is asked, a 40% confidence threshold triggers a safe fallback "
-        "message with college helpdesk contacts. Every interaction is logged in an SQLite database, and the project is publicly hosted "
-        "on my GitHub repository. Thank you.\"",
-        bold_prefix="A. 2-Minute Oral Script (What to Speak in Front of HCL Evaluators):\n"
-    )
-    
-    qas = [
-        ("Q1: Why TF-IDF + Neural MLP instead of keyword search?", "Keyword search fails if a student makes spelling mistakes or uses synonyms. TF-IDF extracts key n-gram weights and Neural MLP learns general semantic patterns across 412 queries with 99.51% accuracy."),
-        ("Q2: What happens if an out-of-syllabus query is asked?", "Our model calculates softmax probability. If confidence is below 40%, it triggers a safe fallback message with department contacts to avoid giving wrong information."),
-        ("Q3: Why Scikit-Learn MLPClassifier?", "In Python 3.12, Scikit-Learn is lighter, faster (11ms latency), and uses only 42MB RAM with zero C-extension conflicts."),
-        ("Q4: Is student data secure?", "Yes. No sensitive student PII or passwords are ever captured. Only sanitized queries, response tags, and latency timestamps are stored in SQLite for performance analytics under the DPDP Act 2023.")
-    ]
-    for q, a in qas:
-        add_body_p(f"{q}\nAnswer: {a}")
-
     # Footer note
     p_ftr = doc.add_paragraph()
-    p_ftr.paragraph_format.space_before = Pt(12)
+    p_ftr.paragraph_format.space_before = Pt(16)
     p_ftr.alignment = WD_ALIGN_PARAGRAPH.CENTER
     r_ftr = p_ftr.add_run("Submit this file as 'Project_Synopsis_YashikaGupta_2300320150073.docx'  |  HCLTech Career Shaper Programme 2026-27")
     r_ftr.font.size = Pt(8.5)
