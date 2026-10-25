@@ -22,8 +22,8 @@ TEMPLATES_DIR = os.path.join(BASE_DIR, "templates")
 ANALYTICS_DIR = os.path.join(BASE_DIR, "analytics_output")
 
 app = FastAPI(
-    title="University AI Chatbot — B.Tech Capstone Project",
-    description="Final Year Engineering Project: NLP & Neural Network University Chatbot API.",
+    title="AI-Powered Chatbot for University Student Support — Yashika Gupta (ABES)",
+    description="HCLTech Career Shaper Programme 2026–27 | Mentor: Dr. Anamika Goel | ABES Engineering College",
     version="1.0.0"
 )
 

@@ -1,12 +1,22 @@
-# 🎓 CampusIQ — Industrial AI University Intelligence & Chatbot Portal
+# 🎓 AI-Powered Chatbot for University Student Support
+
+**HCLTech Career Shaper Programme | 2026–27**  
+- **Learner Name:** Yashika Gupta
+- **Roll Number:** 2300320150073
+- **College / Campus:** ABES Engineering College
+- **Mentor:** Dr. Anamika Goel
+- **Domain:** Digital-Data-AI / AIML
+- **GitHub Repository:** [https://github.com/Yashika-2468/AI-CHATBOT-PROJECT](https://github.com/Yashika-2468/AI-CHATBOT-PROJECT)
+
+---
 
 [![Python Version](https://img.shields.io/badge/Python-3.10%20%7C%203.11%20%7C%203.12-blue.svg)](https://python.org)
 [![FastAPI](https://img.shields.io/badge/Backend-FastAPI%20REST%20API-009688.svg)](https://fastapi.tiangolo.com)
 [![Streamlit](https://img.shields.io/badge/Frontend-Streamlit%20Enterprise-FF4B4B.svg)](https://streamlit.io)
 [![Model Accuracy](https://img.shields.io/badge/Neural%20Accuracy-99.51%25-brightgreen.svg)](#ai--nlp-architecture)
-[![License](https://img.shields.io/badge/License-MIT-purple.svg)](#)
+[![GitHub Repo](https://img.shields.io/badge/GitHub-Yashika--2468%2FAI--CHATBOT--PROJECT-blue?logo=github)](https://github.com/Yashika-2468/AI-CHATBOT-PROJECT)
 
-**CampusIQ** is an end-to-end, industrial-grade AI-powered Student Support Portal designed for higher education institutions, engineering colleges, and universities. Built upon 39 distinct institutional knowledge intents (admissions, fee schedules, hostel amenities, weekly mess timetable, placement records, syllabi, faculty directories, and campus security), the system provides sub-millisecond, highly calibrated responses via both a **Modern Glassmorphic Web Portal** and an **Enterprise Streamlit Dashboard**.
+An intelligent, 24/7 conversational NLP system for higher education institutions that resolves student inquiries regarding admissions, tuition fees, required documentation, hostel mess schedules, placement records, syllabi, and faculty directories in sub-15ms.
 
 ---
 

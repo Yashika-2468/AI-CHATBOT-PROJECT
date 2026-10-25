@@ -20,7 +20,7 @@ import database
 # Page Configuration
 # --------------------------------------------------
 st.set_page_config(
-    page_title="AI University Helpdesk Chatbot — B.Tech Project",
+    page_title="AI Chatbot for University Support — Yashika Gupta",
     page_icon="🎓",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -99,8 +99,9 @@ st.markdown("""
 # --------------------------------------------------
 st.markdown("""
 <div class="academic-header">
-    <h1>🎓 AI University Helpdesk Chatbot</h1>
-    <p>Department of Computer Engineering • Final Year B.Tech Capstone Project (2026-2027)</p>
+    <h1>🎓 AI-Powered Chatbot for University Student Support</h1>
+    <p>HCLTech Career Shaper Programme | 2026–27 • ABES Engineering College</p>
+    <p style="font-size: 0.8rem; color: #a5b4fc; margin-top: 4px;">Learner: <strong>Yashika Gupta (2300320150073)</strong> | Mentor: <strong>Dr. Anamika Goel</strong></p>
     <span class="badge-tag">● NLP MODEL TRAINED (39 INTENTS • 99.51% ACCURACY)</span>
 </div>
 """, unsafe_allow_html=True)
@@ -109,10 +110,13 @@ st.markdown("""
 # Sidebar: Viva Demonstration Controls
 # --------------------------------------------------
 with st.sidebar:
-    st.subheader("👨‍🎓 Project Information")
-    st.write("**Course:** B.Tech Computer Engineering")
-    st.write("**Domain:** Natural Language Processing (NLP)")
-    st.write("**Architecture:** Dual TF-IDF + Neural MLP")
+    st.subheader("👨‍🎓 Project Credentials")
+    st.write("**Learner:** Yashika Gupta")
+    st.write("**Roll No:** 2300320150073")
+    st.write("**College:** ABES Engineering College")
+    st.write("**Mentor:** Dr. Anamika Goel")
+    st.write("**Programme:** HCLTech Career Shaper")
+    st.markdown("[🌐 **GitHub Repository**](https://github.com/Yashika-2468/AI-CHATBOT-PROJECT)")
     st.write("**Total Classes:** 39 University Intents")
     
     st.divider()
@@ -303,19 +307,26 @@ with tab_diagnostics:
 # TAB 5: PROJECT SYNOPSIS & ACADEMIC DETAILS
 # --------------------------------------------------
 with tab_report:
-    st.markdown("### 📄 Project Synopsis & Submission Details")
+    st.markdown("### 📄 Project Synopsis — HCLTech Career Shaper Programme")
     
     st.markdown("""
-    **Project Title:** AI-Powered University Helpdesk Chatbot Using Natural Language Processing  
-    **Course:** Bachelor of Technology (B.Tech) in Computer Engineering  
-    **Academic Year:** 2026 - 2027  
+    | Field | Details |
+    | :--- | :--- |
+    | **Project Title** | AI-Powered Chatbot for University Student Support |
+    | **Domain** | Digital-Data-AI / AIML |
+    | **Duration & Format** | 4 Weeks • Individual Project |
+    | **Learner Name** | **Yashika Gupta** |
+    | **Roll Number** | **2300320150073** |
+    | **College / Campus** | **ABES Engineering College** |
+    | **Mentor Name** | **Dr. Anamika Goel** |
+    | **Submission Date** | **25-10-2026** |
+    | **GitHub Repository** | [https://github.com/Yashika-2468/AI-CHATBOT-PROJECT](https://github.com/Yashika-2468/AI-CHATBOT-PROJECT) |
 
     #### 1. Problem Statement
-    University administration counters face overwhelming query volumes during admission seasons and exams. Static websites with deep menu structures cause navigation fatigue. This project develops an intelligent automated chatbot capable of accurately answering student queries 24/7 in real time.
+    During admission cycles and semester examinations, university students and prospective applicants face long waiting times at administrative counters and difficulty navigating complex university websites to find basic institutional details such as tuition fees, admission documents, hostel mess timetables, and department faculty contacts. This project implements a 24/7 conversational NLP system that answers student inquiries instantly and accurately.
 
-    #### 2. Project Objectives
-    1. Create a curated 39-intent dataset covering academic, administrative, and campus life domains.
-    2. Build an ensemble NLP pipeline achieving >98% classification accuracy.
-    3. Ensure sub-15ms response latency for instant user experience.
-    4. Implement automated query auditing and continuous feedback logging.
+    #### 2. Key Results & Metrics
+    - **Model Accuracy:** 99.51% training accuracy across 39 university intents.
+    - **Response Time:** < 15 ms average inference latency.
+    - **Business Value:** Reduces routine administrative query workload by ~80%.
     """)
